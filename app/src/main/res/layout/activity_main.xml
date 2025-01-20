@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical|center|center_horizontal"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
@@ -14,24 +14,24 @@
 
         <Button
             android:id="@+id/button_0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
 
         <Button
             android:id="@+id/button_1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
 
         <Button
             android:id="@+id/button_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,24 +41,24 @@
 
         <Button
             android:id="@+id/button_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
 
         <Button
             android:id="@+id/button_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d"/>
 
         <Button
             android:id="@+id/button_5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
     </LinearLayout>
 
     <LinearLayout
@@ -68,24 +68,24 @@
 
         <Button
             android:id="@+id/button_6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
 
         <Button
             android:id="@+id/button_7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d"/>
 
         <Button
             android:id="@+id/button_8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:text="x" />
+            android:background="@drawable/d" />
     </LinearLayout>
 
 </LinearLayout>

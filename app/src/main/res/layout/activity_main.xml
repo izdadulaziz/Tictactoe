@@ -3,9 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_vertical|center|center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_view_frist_turn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:text="turn"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/text_view_score"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:text="score"
+        android:textSize="50dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,7 +69,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:background="@drawable/d"/>
+            android:background="@drawable/d" />
 
         <Button
             android:id="@+id/button_5"
@@ -78,7 +96,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:background="@drawable/d"/>
+            android:background="@drawable/d" />
 
         <Button
             android:id="@+id/button_8"

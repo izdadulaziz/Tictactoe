@@ -13,7 +13,6 @@
         android:layout_height="100dp"
         android:layout_margin="10dp"
         android:gravity="center_vertical|center|center_horizontal"
-        android:text="turn"
         android:textSize="50dp" />
 
     <TextView
@@ -104,5 +103,12 @@
             android:layout_margin="10dp"
             android:background="@drawable/d" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="25dp" />
 
 </LinearLayout>

@@ -19,12 +19,16 @@ public class MainActivity extends Activity {
 	Button btn6;
 	Button btn7;
 	Button btn8;
+	
+	Button btnReset;
 
 	/*
 	  0 = o
 	  1 = x
 	*/
 	int turn = 1;
+	
+	int tmpTurn = turn;
 
 	
 
@@ -41,6 +45,8 @@ public class MainActivity extends Activity {
 		btn6 = findViewById(R.id.button_6);
 		btn7 = findViewById(R.id.button_7);
 		btn8 = findViewById(R.id.button_8);
+		
+		btnReset = findViewById(R.id.button_reset);
 
 	}
 
@@ -224,6 +230,25 @@ public class MainActivity extends Activity {
 				setTVTurn();
 
 			}
+		});
+		
+		
+		btnReset.setOnClickListener( v -> {
+			
+			btn0.setBackground(getResources().getDrawable(R.drawable.d));
+			btn1.setBackground(getResources().getDrawable(R.drawable.d));
+			btn2.setBackground(getResources().getDrawable(R.drawable.d));
+			btn3.setBackground(getResources().getDrawable(R.drawable.d));
+			btn4.setBackground(getResources().getDrawable(R.drawable.d));
+			btn5.setBackground(getResources().getDrawable(R.drawable.d));
+			btn6.setBackground(getResources().getDrawable(R.drawable.d));
+			btn7.setBackground(getResources().getDrawable(R.drawable.d));
+			btn8.setBackground(getResources().getDrawable(R.drawable.d));
+			
+			if(turn != tmpTurn) turn = tmpTurn;
+			
+			setTVTurn();
+			
 		});
 
 	}
